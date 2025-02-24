@@ -1,0 +1,24 @@
+{
+    "education": [
+      {
+        "school": "Chas Academy",
+        "years": "2024 - 2026",
+        "degree": "Fullstack .NET Developer"
+      },
+      {
+        "school": "Sjödals Gymnasium",
+        "years": "2017 - 2020",
+        "degree": "Samhällskunskap Beteendevetenskap"
+      }
+    ],
+    "experience": [
+      {
+        "title": "Caretaker",
+        "years": "2021 - 2024"
+      },
+      {
+        "title": "Warehouse Worker",
+        "years": "2020 - 2021"
+      }
+    ]
+  }
