@@ -30,7 +30,7 @@ const CV = () => {
       <div className="cv-container">
       <div className="school-list">
       <div className="school-title">
-      <i classNname='bx bxs-graduation'></i>
+      <i className='bx bxs-graduation'></i>
         <h2>Education</h2>
         </div>
         {cvData.education.map((edu, index) => (
