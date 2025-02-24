@@ -17,7 +17,6 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/home" element={<Home />} />  {/* Lägg till detta för att fånga upp alla oönskade länkar */}
           <Route path="/about" element={<About />} />
           <Route path="/cv" element={<CV />} />
           <Route path="/projects" element={<Projects />} />
