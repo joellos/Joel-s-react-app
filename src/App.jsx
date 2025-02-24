@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
@@ -11,8 +11,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
- {/* Här är basvägen för din app */}
+    <Router> {/* Använd HashRouter istället för BrowserRouter */}
       <Navbar />
       <main>
         <Routes>
@@ -21,7 +20,7 @@ function App() {
           <Route path="/cv" element={<CV />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="*" element={<NotFound />} /> {/* Catch-all route */}
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
       <Footer />
@@ -30,3 +29,4 @@ function App() {
 }
 
 export default App;
+
