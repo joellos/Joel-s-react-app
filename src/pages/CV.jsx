@@ -4,7 +4,11 @@ const CV = () => {
   const [cvData, setCvData] = useState(null);
 
   useEffect(() => {
-    fetch("/cv.json")
+    const jsonUrl = `${import.meta.env.BASE_URL}cv.json`;
+
+    console.log("Fetching CV data from:", jsonUrl); // ✅ Logga URL för att se om den är rätt
+  
+    fetch(jsonUrl)
    
       .then((response) => {
         if (!response.ok) {
