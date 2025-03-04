@@ -275,7 +275,7 @@ div {
   align-items: flex-end;
   flex-direction: column;
   margin-bottom: 10vh;
-  margin-right: 5em;
+  margin-left: 10em;
 }
 
 .form {
