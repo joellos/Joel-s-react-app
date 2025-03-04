@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import imgSrc from '../image.png';
+
 
 const Home = () => {
   const [bgColor, setBgColor] = useState("white");
@@ -8,7 +10,7 @@ const Home = () => {
       <section id="home">
         <div className="selfieBox">
           <img
-            src="https://media.istockphoto.com/id/1619037808/sv/foto/empty-wooden-photo-frame-on-white-background.jpg?s=612x612&w=0&k=20&c=5uK22VatgRbzJgxvTbo0z4sNKE8LTg7ZBHmyJsYiM_o="
+            src={imgSrc}
             alt="myPicture"
           />
         </div>
